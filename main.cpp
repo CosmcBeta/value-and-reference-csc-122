@@ -3,5 +3,16 @@
 #include "src/hello.hpp"
 
 int main() {
-  std::cout << hello() << std::endl;
+
+  int i = 0;
+  int j = 2;
+
+  addOne(i);
+  std::cout << i << std::endl;
+  addOne(i);
+  std::cout << i << std::endl;
+
+  std::cout << addOneWithReturn(j) << std::endl;
+  std::cout << addOneWithReturn(j) << std::endl;
+
 }

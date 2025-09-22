@@ -1,3 +1,5 @@
 #include <string>
 
-std::string hello();
+void addOne(int &num);
+
+int addOneWithReturn(int num);
